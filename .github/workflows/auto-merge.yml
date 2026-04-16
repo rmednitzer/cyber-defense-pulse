@@ -1,0 +1,82 @@
+name: auto-merge
+
+on:
+  push:
+    branches-ignore:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-merge-main
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install jsonschema
+        run: pip install --quiet jsonschema
+
+      - name: Validate sidecar JSON against schema
+        run: |
+          python - <<'PY'
+          import json, sys
+          from pathlib import Path
+          from jsonschema import Draft202012Validator
+
+          schema = json.loads(Path("schemas/sidecar.schema.json").read_text())
+          validator = Draft202012Validator(schema)
+
+          errors = []
+          for p in sorted(Path("reports").glob("*.json")):
+              try:
+                  data = json.loads(p.read_text())
+              except json.JSONDecodeError as e:
+                  errors.append(f"{p}: invalid JSON: {e}")
+                  continue
+              for err in validator.iter_errors(data):
+                  errors.append(f"{p}: {err.message}")
+
+          if errors:
+              print("\n".join(errors))
+              sys.exit(1)
+          print("sidecars valid")
+          PY
+
+  merge:
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Merge source branch into main
+        env:
+          SOURCE_BRANCH: ${{ github.ref_name }}
+          SOURCE_SHA: ${{ github.sha }}
+        run: |
+          git fetch origin "+${SOURCE_SHA}:refs/remotes/origin/_auto_merge_source"
+          git merge --no-ff \
+            -m "auto-merge: ${SOURCE_BRANCH} into main" \
+            "${SOURCE_SHA}"
+          git push origin main
+
+      - name: Delete source branch
+        env:
+          SOURCE_BRANCH: ${{ github.ref_name }}
+        run: git push origin --delete "${SOURCE_BRANCH}"
