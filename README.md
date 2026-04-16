@@ -53,12 +53,6 @@ Analytical synthesis, not legal advice. Not affiliated with any EU
 institution, member state agency, or private entity cited.
 Interpretations are the author's.
 
-## Author
-
-Roman Mednitzer, Vienna.
-Senior Systems Engineer and Assurance Architect.
-https://rmednitzer.github.io
-
 ## License
 
 Licensed under the Apache License, Version 2.0. See [LICENSE](./LICENSE).
