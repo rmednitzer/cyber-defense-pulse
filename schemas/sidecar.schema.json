@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/rmednitzer/cyber-defense-pulse/schemas/sidecar.schema.json",
+  "title": "cyber-defense-pulse weekly sidecar",
+  "description": "Machine-readable companion to each weekly pulse markdown file. One entry per cited source.",
+  "type": "object",
+  "required": ["iso_week", "generated_at", "items", "feed_health"],
+  "properties": {
+    "iso_week": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-W[0-9]{2}$",
+      "description": "ISO 8601 week identifier, e.g. 2026-W17"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "RFC 3339 timestamp of routine execution, UTC"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["url", "title", "publisher", "pub_date", "retrieved_at", "content_sha256", "section"],
+        "properties": {
+          "url": { "type": "string", "format": "uri" },
+          "title": { "type": "string", "minLength": 1 },
+          "publisher": { "type": "string", "minLength": 1 },
+          "pub_date": { "type": "string", "format": "date" },
+          "retrieved_at": { "type": "string", "format": "date-time" },
+          "content_sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$",
+            "description": "SHA-256 of retrieved content, lowercase hex"
+          },
+          "section": {
+            "type": "string",
+            "enum": [
+              "regulatory_implementation",
+              "operational_advisories",
+              "legislative_motion",
+              "defense_procurement",
+              "data_protection",
+              "calendar_deltas"
+            ]
+          },
+          "language": {
+            "type": "string",
+            "pattern": "^[a-z]{2}(-[A-Z]{2})?$",
+            "description": "BCP 47 language tag, e.g. en, de, fr"
+          }
+        }
+      }
+    },
+    "feed_health": {
+      "type": "array",
+      "description": "Record of feed fetch attempts, successful or failed",
+      "items": {
+        "type": "object",
+        "required": ["endpoint", "status", "attempts"],
+        "properties": {
+          "endpoint": { "type": "string", "format": "uri" },
+          "status": {
+            "oneOf": [
+              { "type": "integer", "minimum": 100, "maximum": 599 },
+              { "type": "string", "enum": ["timeout", "dns_failure", "tls_failure", "parse_failure"] }
+            ]
+          },
+          "attempts": { "type": "integer", "minimum": 1 },
+          "last_attempt": { "type": "string", "format": "date-time" }
+        }
+      }
+    },
+    "counts": {
+      "type": "object",
+      "properties": {
+        "total_items": { "type": "integer", "minimum": 0 },
+        "by_section": {
+          "type": "object",
+          "additionalProperties": { "type": "integer", "minimum": 0 }
+        },
+        "feed_failures": { "type": "integer", "minimum": 0 }
+      }
+    }
+  }
+}
