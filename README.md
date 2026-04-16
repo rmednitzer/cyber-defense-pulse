@@ -1,4 +1,4 @@
-# cyber-defense-pulse
+# Cyber Defense Pulse
 
 Weekly analytical pulse on EU cyber and defense signals. Produced every
 Monday 06:00 UTC, one artifact per ISO week.
