@@ -1,0 +1,150 @@
+{
+  "iso_week": "2026-W16",
+  "generated_at": "2026-04-16T18:31:12Z",
+  "items": [
+    {
+      "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-017/",
+      "title": "Bulletin d'actualité CERTFR-2026-ACT-017",
+      "publisher": "ANSSI CERT-FR",
+      "pub_date": "2026-04-13",
+      "retrieved_at": "2026-04-16T18:29:54Z",
+      "content_sha256": "b94a5419274cdffb641180466e326da8c4535e57dbb0e7f09ef0555e55830d54",
+      "section": "operational_advisories",
+      "language": "fr"
+    },
+    {
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0440/",
+      "title": "Multiples vulnérabilités dans les produits Fortinet",
+      "publisher": "ANSSI CERT-FR",
+      "pub_date": "2026-04-15",
+      "retrieved_at": "2026-04-16T18:29:55Z",
+      "content_sha256": "423be21e8d157f5f832305a058cf5326d80887d47f146b3d28331093f31972cc",
+      "section": "operational_advisories",
+      "language": "fr"
+    },
+    {
+      "url": "https://advisories.ncsc.nl/2026/ncsc-2026-0121.html",
+      "title": "NCSC-2026-0121 Kwetsbaarheden verholpen in Fortinet FortiSandbox",
+      "publisher": "NCSC-NL",
+      "pub_date": "2026-04-15",
+      "retrieved_at": "2026-04-16T18:29:55Z",
+      "content_sha256": "a6f6732aec0d250653be91449b99181c47f0d06d70f5bc6bf596ba92cbc01cb1",
+      "section": "operational_advisories",
+      "language": "nl"
+    },
+    {
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0434/",
+      "title": "Multiples vulnérabilités dans les produits SAP",
+      "publisher": "ANSSI CERT-FR",
+      "pub_date": "2026-04-14",
+      "retrieved_at": "2026-04-16T18:29:55Z",
+      "content_sha256": "10c60e88e16159921a952c2fd844d2c2bc73a921312203c978886d6255b9da94",
+      "section": "operational_advisories",
+      "language": "fr"
+    },
+    {
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0451/",
+      "title": "Multiples vulnérabilités dans les produits Cisco",
+      "publisher": "ANSSI CERT-FR",
+      "pub_date": "2026-04-16",
+      "retrieved_at": "2026-04-16T18:30:58Z",
+      "content_sha256": "6f2e25868bc40e6650661912e31e20b8db5a90be0daec472a65a1c24452e5c3d",
+      "section": "operational_advisories",
+      "language": "fr"
+    },
+    {
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0450/",
+      "title": "Multiples vulnérabilités dans les produits Splunk",
+      "publisher": "ANSSI CERT-FR",
+      "pub_date": "2026-04-16",
+      "retrieved_at": "2026-04-16T18:30:58Z",
+      "content_sha256": "c9d67473f8d4ef93db5ddb71527364a4ecfa7c2abed2191a58a914179e3998f0",
+      "section": "operational_advisories",
+      "language": "fr"
+    },
+    {
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_818",
+      "title": "Speaking notes by Commissioner Kubilius in the structured dialogue with the European Parliament SEDE Committee",
+      "publisher": "European Commission",
+      "pub_date": "2026-04-15",
+      "retrieved_at": "2026-04-16T18:29:54Z",
+      "content_sha256": "dd4316f88edf5d2fcdd892f04d88dce8c1e87f383292e187bbbf908b80e1a78c",
+      "section": "legislative_motion",
+      "language": "en"
+    },
+    {
+      "url": "https://eda.europa.eu/news-and-events/news/2026/04/15/stepping-up-when-it-matters-most--eda-delivers-value-for-its-member-states",
+      "title": "EDA delivers value for Member States - Annual Report 2025",
+      "publisher": "European Defence Agency",
+      "pub_date": "2026-04-15",
+      "retrieved_at": "2026-04-16T18:31:01Z",
+      "content_sha256": "d9a553c7c719d16164eb6c8d0c808f9d392c285bd432a99cc9aa7b09b5adb828",
+      "section": "defense_procurement",
+      "language": "en"
+    },
+    {
+      "url": "https://www.edpb.europa.eu/news/news/2026/edpb-brings-clarity-data-processing-scientific-research-speeds-finalisation_en",
+      "title": "EDPB brings clarity to data processing for scientific research, speeds up the finalisation of the anonymisation guidelines and approves first European data protection seal as a tool for transfers",
+      "publisher": "European Data Protection Board",
+      "pub_date": "2026-04-16",
+      "retrieved_at": "2026-04-16T18:30:41Z",
+      "content_sha256": "60b71b7e48befc7abfca37bb1243181ea117108c7cd4219c07f282cfaed9d571",
+      "section": "data_protection",
+      "language": "en"
+    },
+    {
+      "url": "https://www.edpb.europa.eu/news/news/2026/enhancing-compliance-and-consistency-edpb-adopts-dpia-template_en",
+      "title": "Enhancing compliance and consistency: EDPB adopts DPIA template",
+      "publisher": "European Data Protection Board",
+      "pub_date": "2026-04-14",
+      "retrieved_at": "2026-04-16T18:30:41Z",
+      "content_sha256": "97586a2f4ca60a0ab214e8ad0cc15bbee211fd05c435188eb9719d3959b90127",
+      "section": "data_protection",
+      "language": "en"
+    }
+  ],
+  "feed_health": [
+    {
+      "endpoint": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0121",
+      "status": "parse_failure",
+      "attempts": 1,
+      "last_attempt": "2026-04-16T18:26:48Z"
+    },
+    {
+      "endpoint": "https://advisories.ncsc.nl/advisory?id=NCSC-2026-0120",
+      "status": "parse_failure",
+      "attempts": 1,
+      "last_attempt": "2026-04-16T18:26:48Z"
+    },
+    {
+      "endpoint": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_818",
+      "status": "parse_failure",
+      "attempts": 1,
+      "last_attempt": "2026-04-16T18:29:54Z"
+    },
+    {
+      "endpoint": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_805",
+      "status": "parse_failure",
+      "attempts": 1,
+      "last_attempt": "2026-04-16T18:29:54Z"
+    },
+    {
+      "endpoint": "https://defence-industry-space.ec.europa.eu/news_en",
+      "status": 404,
+      "attempts": 1,
+      "last_attempt": "2026-04-16T18:29:06Z"
+    }
+  ],
+  "counts": {
+    "total_items": 10,
+    "by_section": {
+      "regulatory_implementation": 0,
+      "operational_advisories": 6,
+      "legislative_motion": 1,
+      "defense_procurement": 1,
+      "data_protection": 2,
+      "calendar_deltas": 0
+    },
+    "feed_failures": 5
+  }
+}
