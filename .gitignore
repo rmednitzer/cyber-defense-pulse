@@ -1,0 +1,14 @@
+# Dry-run output, never committed
+reports/_dryrun/
+*.dryrun.md
+*.dryrun.json
+
+# Editor detritus
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
