@@ -1,0 +1,100 @@
+{
+  "iso_week": "2026-W17",
+  "generated_at": "2026-04-20T04:06:22Z",
+  "items": [
+    {
+      "url": "https://www.europarl.europa.eu/committees/en/itre/home/highlights",
+      "title": "ITRE structured dialogue with Commissioner Andrius Kubilius (Defence and Space), 20 April 2026",
+      "publisher": "European Parliament, Committee on Industry, Research and Energy (ITRE)",
+      "pub_date": "2026-04-20",
+      "retrieved_at": "2026-04-20T04:05:10Z",
+      "content_sha256": "033d441b68f14bd05814e1e1f6c3c26bffe7dcc4754144553a65a67d589715bc",
+      "section": "legislative_motion",
+      "language": "en"
+    },
+    {
+      "url": "https://multimedia.europarl.europa.eu/en/itre-committee-meeting_20260420-1700-COMMITTEE-ITRE_vd",
+      "title": "ITRE extraordinary committee meeting - 20 April 2026, 17:00",
+      "publisher": "European Parliament Multimedia Centre",
+      "pub_date": "2026-04-20",
+      "retrieved_at": "2026-04-20T04:05:15Z",
+      "content_sha256": "578a8f5b334bf93800cf44f74a9854738fff6953f0784f1ef533804774296a29",
+      "section": "legislative_motion",
+      "language": "en"
+    }
+  ],
+  "feed_health": [
+    {
+      "endpoint": "https://www.europarl.europa.eu/committees/en/itre/meetings/highlights",
+      "status": 404,
+      "attempts": 1,
+      "last_attempt": "2026-04-20T04:04:30Z"
+    },
+    {
+      "endpoint": "https://www.europarl.europa.eu/committees/en/itre/meetings/latest-meetings",
+      "status": 404,
+      "attempts": 1,
+      "last_attempt": "2026-04-20T04:04:45Z"
+    },
+    {
+      "endpoint": "https://multimedia.europarl.europa.eu/en/itre-committee-meeting_20260420-1700-COMMITTEE-ITRE_vd",
+      "status": "parse_failure",
+      "attempts": 1,
+      "last_attempt": "2026-04-20T04:05:15Z"
+    },
+    {
+      "endpoint": "https://cert.europa.eu/publications/security-advisories",
+      "status": 308,
+      "attempts": 1,
+      "last_attempt": "2026-04-20T04:02:40Z"
+    },
+    {
+      "endpoint": "https://www.consilium.europa.eu/en/press/press-releases/",
+      "status": 403,
+      "attempts": 1,
+      "last_attempt": "2026-04-20T04:03:50Z"
+    },
+    {
+      "endpoint": "https://www.garanteprivacy.it/home/news",
+      "status": 404,
+      "attempts": 1,
+      "last_attempt": "2026-04-20T04:04:05Z"
+    },
+    {
+      "endpoint": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa",
+      "status": 500,
+      "attempts": 1,
+      "last_attempt": "2026-04-20T04:03:55Z"
+    },
+    {
+      "endpoint": "https://www.aepd.es/prensa/sala",
+      "status": 404,
+      "attempts": 1,
+      "last_attempt": "2026-04-20T04:04:10Z"
+    },
+    {
+      "endpoint": "https://advisories.ncsc.nl/csaf",
+      "status": "parse_failure",
+      "attempts": 1,
+      "last_attempt": "2026-04-20T04:02:25Z"
+    },
+    {
+      "endpoint": "https://ted.europa.eu/en/search?search-scope=LATEST&publication-date=20260420:20260420",
+      "status": "parse_failure",
+      "attempts": 1,
+      "last_attempt": "2026-04-20T04:04:20Z"
+    }
+  ],
+  "counts": {
+    "total_items": 2,
+    "by_section": {
+      "regulatory_implementation": 0,
+      "operational_advisories": 0,
+      "legislative_motion": 2,
+      "defense_procurement": 0,
+      "data_protection": 0,
+      "calendar_deltas": 0
+    },
+    "feed_failures": 10
+  }
+}
