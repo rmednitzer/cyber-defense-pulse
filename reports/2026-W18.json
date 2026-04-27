@@ -1,0 +1,138 @@
+{
+  "iso_week": "2026-W18",
+  "generated_at": "2026-04-27T04:19:00Z",
+  "items": [
+    {
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/04/24/forward-look-2026/",
+      "title": "Forward look: 27 April – 10 May 2026",
+      "publisher": "Council of the European Union, General Secretariat",
+      "pub_date": "2026-04-24",
+      "retrieved_at": "2026-04-27T04:18:00Z",
+      "content_sha256": "ecc79f558ef54f35284baa8adb3fffc0e7f3193da4ac645d77925f7707860728",
+      "section": "calendar_deltas",
+      "language": "en"
+    },
+    {
+      "url": "https://www.consilium.europa.eu/en/meetings/tte/2026/04/29-30/",
+      "title": "Informal meeting of telecommunications ministers, 29-30 April 2026",
+      "publisher": "Council of the European Union, General Secretariat (Cyprus presidency)",
+      "pub_date": "2026-03-09",
+      "retrieved_at": "2026-04-27T04:17:00Z",
+      "content_sha256": "32de27f10c9dbbfd409e228fbf4cda6f02f2d949c6dd6d5ca42d78450ccd9f21",
+      "section": "calendar_deltas",
+      "language": "en"
+    },
+    {
+      "url": "https://digital-strategy.ec.europa.eu/en/events/apply-ai-sectoral-deep-dive-electronic-communications",
+      "title": "Apply AI sectoral deep dive - electronic communications (webinar, 30 April 2026)",
+      "publisher": "European Commission, DG CNECT (AI Office)",
+      "pub_date": "2026-04-09",
+      "retrieved_at": "2026-04-27T04:17:00Z",
+      "content_sha256": "2bf72d746fc60c8bae76e6890658c0d90867bf46d2bf260a322a51c68449bc58",
+      "section": "calendar_deltas",
+      "language": "en"
+    },
+    {
+      "url": "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-measuring-energy-consumption-and-emissions-ai-models-and-systems",
+      "title": "Targeted consultation on measuring energy consumption and emissions of AI models and systems",
+      "publisher": "European Commission, DG CNECT",
+      "pub_date": "2026-04-07",
+      "retrieved_at": "2026-04-27T04:17:00Z",
+      "content_sha256": "9325cc092136799a7afcc528764d716a705b6bd90974d20590a4d26a5e1cc647",
+      "section": "calendar_deltas",
+      "language": "en"
+    }
+  ],
+  "feed_health": [
+    {
+      "endpoint": "https://www.consilium.europa.eu/en/meetings/calendar/forward-look/",
+      "status": 404,
+      "attempts": 1,
+      "last_attempt": "2026-04-27T04:15:30Z"
+    },
+    {
+      "endpoint": "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-measuring-energy-consumption-and-emissions-ai",
+      "status": 404,
+      "attempts": 1,
+      "last_attempt": "2026-04-27T04:15:30Z"
+    },
+    {
+      "endpoint": "https://cert.europa.eu/publications/news",
+      "status": 404,
+      "attempts": 1,
+      "last_attempt": "2026-04-27T04:13:10Z"
+    },
+    {
+      "endpoint": "https://csirtsnetwork.eu/news",
+      "status": 404,
+      "attempts": 1,
+      "last_attempt": "2026-04-27T04:13:10Z"
+    },
+    {
+      "endpoint": "https://www.bfdi.bund.de/SiteGlobals/Forms/Suche/Servicesuche_Formular.html?nn=455594&resourceId=455584&input_=455594&pageLocale=de&templateQueryString=&dateOfIssue=&sortOrder=dateOfIssue_dt+desc",
+      "status": 403,
+      "attempts": 1,
+      "last_attempt": "2026-04-27T04:13:25Z"
+    },
+    {
+      "endpoint": "https://www.dsb.gv.at/news.html",
+      "status": 404,
+      "attempts": 1,
+      "last_attempt": "2026-04-27T04:13:25Z"
+    },
+    {
+      "endpoint": "https://defence-industry-space.ec.europa.eu/eu-defence-industry/european-defence-industry-reinforcement-through-common-procurement-act-edirpa_en",
+      "status": 404,
+      "attempts": 1,
+      "last_attempt": "2026-04-27T04:13:40Z"
+    },
+    {
+      "endpoint": "https://defence-industry-space.ec.europa.eu/eu-defence-industry/security-action-europe-safe_en",
+      "status": 404,
+      "attempts": 1,
+      "last_attempt": "2026-04-27T04:13:40Z"
+    },
+    {
+      "endpoint": "https://www.pesco.europa.eu/news/",
+      "status": 503,
+      "attempts": 1,
+      "last_attempt": "2026-04-27T04:13:55Z"
+    },
+    {
+      "endpoint": "https://www.europarl.europa.eu/committees/en/libe/meetings/meeting-documents",
+      "status": "parse_failure",
+      "attempts": 1,
+      "last_attempt": "2026-04-27T04:15:30Z"
+    },
+    {
+      "endpoint": "https://ted.europa.eu/en/search?search-scope=LATEST&publication-date=20260427:20260503",
+      "status": "parse_failure",
+      "attempts": 1,
+      "last_attempt": "2026-04-27T04:13:55Z"
+    },
+    {
+      "endpoint": "https://eur-lex.europa.eu/oj/direct-access.html",
+      "status": "parse_failure",
+      "attempts": 1,
+      "last_attempt": "2026-04-27T04:14:10Z"
+    },
+    {
+      "endpoint": "https://www.edpb.europa.eu/our-work-tools/our-documents/our-documents_en",
+      "status": 404,
+      "attempts": 1,
+      "last_attempt": "2026-04-27T04:13:25Z"
+    }
+  ],
+  "counts": {
+    "total_items": 4,
+    "by_section": {
+      "regulatory_implementation": 0,
+      "operational_advisories": 0,
+      "legislative_motion": 0,
+      "defense_procurement": 0,
+      "data_protection": 0,
+      "calendar_deltas": 4
+    },
+    "feed_failures": 13
+  }
+}
